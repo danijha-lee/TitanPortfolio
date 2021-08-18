@@ -114,13 +114,15 @@ $(function() {
 
 
     // magnificPopup
-    $('.gallery').magnificPopup({
+    /*$('.gallery').magnificPopup({
         delegate: '.link',
-        type: 'image',
+        
+        //type: 'image',
         gallery: {
-            enabled: true
+            enabled: false,
+            navigateByImgClick: true
         }
-    });
+    });*/
 
 
     // countUp
